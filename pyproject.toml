@@ -6,7 +6,7 @@ authors = ["Andreas Oberritter <obi@saftware.de>"]
 license = "MIT"
 readme = "README.md"
 packages = [
-    { include = "sml" },
+    { include = "pysml" },
     { include = "sml-mqtt-bridge.py", from = "examples" },
     { include = "sml-mqtt-bridge.service", from = "examples" },
     { include = "test_asyncio.py", from = "examples" },
