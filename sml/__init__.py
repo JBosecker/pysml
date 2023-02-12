@@ -33,6 +33,7 @@ import bitstring
 
 logger = logging.getLogger(__name__)
 logger.addHandler(logging.NullHandler())
+logger.info("Logger for SML initialised")
 
 
 def crc16_generate_table() -> Generator[int, None, None]:
