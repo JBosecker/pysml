@@ -24,8 +24,8 @@
 import asyncio
 import logging
 from sys import argv
-from pysml import SmlSequence, SmlGetListResponse
-from pysml.asyncio import SmlProtocol
+from sml import SmlSequence, SmlGetListResponse
+from sml.asyncio import SmlProtocol
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
