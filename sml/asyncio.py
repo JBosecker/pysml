@@ -129,7 +129,7 @@ class SmlProtocol(SmlBase, asyncio.Protocol):
         if not loop:
             loop = asyncio.get_event_loop()
 
-        logger.debug('this is the special version')
+        logger.info('this is the special version')
         self._loop = loop
         self._lock = asyncio.Lock()
         self._running = True
