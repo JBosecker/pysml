@@ -33,8 +33,8 @@ from typing import Callable, Union
 from urllib.parse import urlparse
 
 from asyncio_mqtt import Client, MqttError, Will
-from pysml import SmlSequence, SmlGetListResponse
-from pysml.asyncio import SmlProtocol
+from sml import SmlSequence, SmlGetListResponse
+from sml.asyncio import SmlProtocol
 from slugify import slugify
 
 logger = logging.getLogger(__name__)
