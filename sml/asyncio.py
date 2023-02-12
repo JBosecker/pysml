@@ -117,7 +117,7 @@ class SmlProtocol(SmlBase, asyncio.Protocol):
                 logger.warning(exc)
                 asyncio.ensure_future(self._reconnect(), loop=self._loop)
             else:
-                logger.info('Connected to %s', self._url.geturl())
+                logger.info('Connected to fantastic %s', self._url.geturl())
                 if self._timeout_delay:
                     self._last_update = time.time()
                     self._watchdog = asyncio.create_task(self._timeout())
